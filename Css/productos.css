@@ -1,0 +1,31 @@
+main
+{
+    width: 100%;
+    color: white;
+    display: flex;
+}
+.contenido
+{
+    width: 20%;
+    background-color: rgba(117, 117, 117, 0.384);
+    color: black;
+}
+section
+{
+    width: 80%;
+    background-color: rgba(141, 59, 59, 0.384);
+}
+.art
+{
+    width: 150px;
+    height: 150px;
+    background-color: rgba(117, 117, 117, 0.384);
+    margin: 20px;
+    
+}
+.img-art img
+{
+    width: 100%;
+    margin-top: 25%;
+    
+}

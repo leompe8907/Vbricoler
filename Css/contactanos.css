@@ -1,0 +1,65 @@
+main
+{
+    display: flex;
+    background-color: rgb(243, 243, 243);
+}
+.img
+{
+    width: 50%;
+    height: 600px;
+    background-image:url(../imagenes/Fondos/contactanos.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 20px 0 40px 0;
+
+}
+.formulario
+{
+    width: 50%;
+
+}
+.formulario h2
+{
+    text-align: center;
+    text-transform: capitalize;
+    margin: 20px 0 40px 0;
+}
+.formulario .form input
+{
+    margin-left: 50px;
+    margin-bottom: 30px;
+    width: 80%;
+    height: 25px;
+    padding-left: 15px;
+    outline: none;
+    border: none;
+    border-radius: 100px;
+    border-bottom: 2px solid #999;
+    box-sizing: border-box;
+}
+.formulario .form textarea
+{
+    width: 80%;
+    height: 200px;
+    margin-left: 50px;
+    padding: 15px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    border-bottom: 2px solid #999;
+    box-sizing: border-box;
+}
+::placeholder
+{
+    color: rgb(0, 0, 0);
+}
+.formulario .form input[type="submit"]
+{
+    margin-bottom: 0;
+    border-bottom: none;
+    cursor:pointer;
+    background: #f7497d;
+    color: #fff;
+    text-transform: uppercase;
+}

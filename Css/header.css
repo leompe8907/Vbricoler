@@ -1,0 +1,121 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+header
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.cabeza
+{
+    width: 20%;
+    vertical-align: middle;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 5px;
+    flex-wrap:wrap;
+}
+#logo
+{
+    width: 90px;
+    border-radius: 100%;
+    border-style:groove; 
+}
+#titulo
+{
+    color: rgb(0, 0, 0);
+    text-decoration-line: none;  
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+.Usuario
+{
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+#registro
+{
+    color: rgb(0, 0, 0);
+    font-family: cursive;
+    margin: 8px;
+    text-decoration-line: none;
+}
+#ingreso
+{
+    color: rgb(0, 0, 0);
+    font-family: cursive;
+    margin: 8px;
+    text-decoration-line: none;
+}
+nav
+{
+background-color: rgba(58, 58, 58, 0.384);
+}
+ul.navegador li
+{
+    display:inline-block;
+    margin: 10px;
+    margin-top: 5px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 100%;
+}
+ul
+{
+    position: relative;
+    text-align: center;
+    font-family: cursive;
+}
+ul.navegador li a
+{
+    color: rgb(255, 255, 255);
+    text-decoration-line: none;
+}
+ul.navegador li a :hover
+{
+    color: black;
+}
+footer
+{
+    width: 100%;
+    background-color: rgba(58, 58, 58, 0.384);
+    display: flow-root;
+}
+footer::after
+{
+    content: "";
+    clear: both;
+    display: block;
+}
+.derechos
+{
+    float: left;
+    width: 95%;
+    vertical-align: middle;
+
+}
+#derechos
+{
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 3px;
+}
+.redes
+{
+    float: right;
+    width: 5%;
+    vertical-align: middle;
+    box-sizing: content-box;
+}
+.redes img
+{
+    margin-top: 3px;
+}
+
