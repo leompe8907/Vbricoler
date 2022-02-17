@@ -1,31 +1,112 @@
 main
 {
+    /* background-color: rgb(180, 180, 180); */
     width: 100%;
-    color: white;
-    display: flex;
+    /* border: rgb(180, 180, 180);
+    border-style:dotted; */
+    box-sizing: border-box;
 }
-.contenido
+.bloqueGeneral
 {
-    width: 20%;
-    background-color: rgba(117, 117, 117, 0.384);
+    /* background-color: rgb(255, 0, 0); */
+    width: 99%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-inline: auto;
+    text-align: -webkit-center;
+    /* box-sizing: border-box;
+    border: black;
+    border-style:groove;  */
+}
+.bloque
+{  
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 99%;
+    text-align: center;
+
+}
+.subBloque
+{
+    padding: 15px;
+    box-sizing: border-box;
+    
+}
+.seccion
+{
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+}
+.seccion h3
+{
+    text-align: center;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 25px;
+    font-family:"curve";
+    border-style: groove;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+.base
+{
+    margin: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    align-items: center;
+    border-radius: 5px;
+    border-color: antiquewhite;
+    border-style: dashed;
+}
+.articulos
+{
+    align-items: center;
+    background-color: antiquewhite;
+    width: 230px;
+    height: 250px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0 0 10px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+h3.titulo
+{
+    margin-top: revert;
+}
+.tituloArt a
+{
+    text-decoration-line: none;
     color: black;
 }
-section
+.base .articulos  img.as
 {
-    width: 80%;
-    background-color: rgba(141, 59, 59, 0.384);
-}
-.art
-{
-    width: 150px;
-    height: 150px;
-    background-color: rgba(117, 117, 117, 0.384);
-    margin: 20px;
-    
-}
-.img-art img
-{
+    align-content:stretch;
+    overflow:hidden;
+    object-fit: cover;
     width: 100%;
-    margin-top: 25%;
-    
+    margin-top: 10%;
+    border-radius: 5%;
+}
+img.as
+{
+    transition: transform .5s;
+}
+img.as:hover
+{
+    -webkit-transform: scale(1.01);
+    border-radius: 5%;
+    border-color: black;
+    box-shadow: 0 0 5px 2px black;
+}
+.numeroValor a
+{
+    text-decoration-line: none;
+    color: black;
+}
+.numeroValor h3.valor
+{
+    margin-top: revert;
 }

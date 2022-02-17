@@ -3,21 +3,24 @@
     margin: 0px;
     padding: 0px;
 }
-header
+.superior
 {
     width: 100%;
-    display: flex;
     align-items: center;
+    border-bottom-width: 3px;
+    border-bottom-color: black;
+    border-bottom-style: double;
+    display: inline-flex;
 }
 .cabeza
 {
-    width: 20%;
+    width: 36%;
     vertical-align: middle;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     margin: 5px;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
 }
 #logo
 {
@@ -35,9 +38,11 @@ header
 
 .Usuario
 {
-    width: 80%;
+    width: 64%;
     display: flex;
     justify-content: flex-end;
+    margin-right: 3%;
+    box-sizing: border-box;
 }
 #registro
 {
@@ -53,39 +58,49 @@ header
     margin: 8px;
     text-decoration-line: none;
 }
-nav
+
+.header
 {
-background-color: rgba(58, 58, 58, 0.384);
-}
-ul.navegador li
-{
-    display:inline-block;
-    margin: 10px;
-    margin-top: 5px;
-    margin-right: 0px;
-    margin-bottom: 5px;
-    padding: 5px;
-    border-radius: 100%;
+    margin: auto;
+    width: 500px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flow-root;
 }
 ul
 {
-    position: relative;
-    text-align: center;
-    font-family: cursive;
+    list-style: none;
 }
-ul.navegador li a
+.nav li a
 {
-    color: rgb(255, 255, 255);
-    text-decoration-line: none;
+    background-color: black;
+    color: bisque;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
 }
-ul.navegador li a :hover
+.nav li a:hover
 {
-    color: black;
+    background-color: rgba(31, 138, 49, 0.623);
 }
+.nav > li
+{
+    float: left;
+}
+.nav li ul
+{
+    position: absolute;
+    min-width: 140px;
+    display: none;
+}
+.nav li:hover > ul
+{
+    display: block;
+}
+
 footer
 {
     width: 100%;
-    background-color: rgba(58, 58, 58, 0.384);
+    background-color: rgb(0, 0, 0);
     display: flow-root;
 }
 footer::after
@@ -105,7 +120,9 @@ footer::after
 {
     vertical-align: middle;
     text-align: center;
-    padding-top: 3px;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    color: rgb(255, 255, 255);
 }
 .redes
 {
@@ -116,6 +133,6 @@ footer::after
 }
 .redes img
 {
-    margin-top: 3px;
+    margin-top: 2%;
 }
 
